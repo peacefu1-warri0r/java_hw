@@ -1,0 +1,38 @@
+public class Main {
+
+    public static void main(String[] args){
+
+        // Primitive variables
+        char simpleChar = 'G';
+        int simpleInt = 89;
+        byte simpleByte = 4;
+        short simpleShort = 56;
+        float simpleFloat = 4.7333436F;
+        double simpleDouble = 4.355453532;
+        long simpleLong = 12121;
+
+        System.out.println("============ Simple Types ============");
+        System.out.println("char: " + simpleChar);
+        System.out.println("int: " + simpleInt);
+        System.out.println("byte: " + simpleByte);
+        System.out.println("short: " + simpleShort);
+        System.out.println("float: " + simpleFloat);
+        System.out.println("double: " + simpleDouble);
+        System.out.println("long: " + simpleLong);
+
+        Character classChar = 'G';
+        Integer classInt = 89;
+        Byte classByte = 4;
+        Short classShort = 56;
+        Float classFloat = 4.7333436F;
+        Double classDouble = 4.355453532;
+        Long classLong = 12121L;
+
+        System.out.println("============ Complex Types ============");
+        System.out.println("Character: " + classChar);
+        System.out.println("Integer: " + classInt);
+        System.out.println("Byte: " + classByte);
+        System.out.println("Short: " + classShort);
+        System.out.println("Float: " + classFloat);
+        System.out.println("Double: " + classDouble);
+        System.out.println("Long: " + classLong);
